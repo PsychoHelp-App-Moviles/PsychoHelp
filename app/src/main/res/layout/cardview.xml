@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvAppointmentCard"
+        app:cardCornerRadius="16dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="5dp"
+        app:cardElevation="7dp"
+        android:clickable="true"
+        android:focusable="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvDateProgramated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="Cita programada"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:lines="2"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="10/12/2002"
+                android:layout_margin="20dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:lines="2"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvDateStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="Pendiente"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:lines="2"
+                android:textStyle="bold"/>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
