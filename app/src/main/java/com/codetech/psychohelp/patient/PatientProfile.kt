@@ -1,13 +1,14 @@
-package com.codetech.psychohelp
+package com.codetech.psychohelp.patient
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import androidx.appcompat.app.AlertDialog
+import com.codetech.psychohelp.R
 
-class MainActivity : AppCompatActivity() {
+class PatientProfile : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.patient_profile)
     }
+
 }

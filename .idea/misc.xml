@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/patient_profile.xml" value="0.33" />
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/patient_profile_dialog.xml" value="0.3625" />
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/psycho_profile.xml" value="0.3625" />
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/psycho_profile_dialog.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
