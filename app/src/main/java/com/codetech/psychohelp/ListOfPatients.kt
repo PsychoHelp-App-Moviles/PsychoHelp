@@ -3,9 +3,11 @@ package com.codetech.psychohelp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.codetech.psychohelp.databinding.ActivityLogbookBinding
+import com.codetech.psychohelp.APIService
+import com.codetech.psychohelp.databinding.ActivityListOfPatientsBinding
 import com.codetech.psychohelp.patient.PatientAdapter
 import com.codetech.psychohelp.patient.PatientClickListener
 import com.codetech.psychohelp.patient.PatientsResponse
@@ -18,14 +20,14 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 const val ID = "com.codetech.psychohelp.MESSAGE"
 
-class Patients : AppCompatActivity(), PatientClickListener {
-    private lateinit var  binding: ActivityLogbookBinding;
-    private lateinit var adapter : PatientAdapter;
-    private val patientsList = mutableListOf<PatientsResponse>();
+class ListOfPatients : AppCompatActivity(), PatientClickListener {
+    private lateinit var adapter : PatientAdapter
+    private lateinit var binding: ActivityListOfPatientsBinding
+    private val patientsList = mutableListOf<PatientsResponse>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityLogbookBinding.inflate(layoutInflater)
+        binding = ActivityListOfPatientsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         getPatients("1")
@@ -62,12 +64,14 @@ class Patients : AppCompatActivity(), PatientClickListener {
     }
 
     private fun showError() {
-        Toast.makeText(this, "What error is this", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "An error has been occurred while processing your request", Toast.LENGTH_SHORT).show()
     }
 
     override fun onClick(patient: PatientsResponse) {
-        val intent = Intent(this, PsychologistLogbook::class.java)
-        intent.putExtra(ID, patient.id)
+        val intent = Intent(this, PsychologistLogbook::class.java).apply {
+            putExtra(ID, patient.id)
+        }
+        Log.d("patient", patient.id)
         startActivity(intent)
     }
 }

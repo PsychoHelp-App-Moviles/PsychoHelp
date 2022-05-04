@@ -5,4 +5,16 @@
     <string name="email_placeholder">Email</string>
     <string name="cover">Patient</string>
     <string name="session_history">Historial de Sesiones</string>
+    <string name="identification_data">Datos de identificación</string>
+    <string name="session_placeholder">Sesión</string>
+    <string name="motive_placeholder">Motivo de la cita:</string>
+    <string name="history_placeholder">Historial Personal:</string>
+    <string name="motive"> </string>
+    <string name="history"> </string>
+    <string name="motive_text">Motive</string>
+    <string name="history_text">History</string>
+    <string name="placeholder_patient">Text:</string>
+    <string name="update_button">Editar</string>
+    <string name="open_dialog">Editar</string>
+    <string name="patients_list">Tus Pacientes</string>
 </resources>
