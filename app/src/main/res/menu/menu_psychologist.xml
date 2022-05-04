@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homePsychoFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/patientsFragment"
+        android:icon="@drawable/ic_patients"
+        android:title="Patients"
+        />
+    <item
+        android:id="@+id/datesPsychoFragment"
+        android:icon="@drawable/ic_dates"
+        android:title="Dates"
+        />
+    <item
+        android:id="@+id/accountPsychoFragment"
+        android:icon="@drawable/ic_account"
+        android:title="Account"
+        />
+</menu>
