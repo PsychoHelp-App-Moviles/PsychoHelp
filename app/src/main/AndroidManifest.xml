@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PsychoHelp">
         <activity
+            android:name=".PsychologistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatientActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
