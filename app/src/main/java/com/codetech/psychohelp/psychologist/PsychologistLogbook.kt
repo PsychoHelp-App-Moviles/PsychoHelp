@@ -16,7 +16,7 @@ import com.codetech.psychohelp.APIService
 import com.codetech.psychohelp.ID
 import com.codetech.psychohelp.patient.PatientsResponse
 import com.codetech.psychohelp.R
-import com.codetech.psychohelp.appointment.AppointmentAdapter
+import com.codetech.psychohelp.appointment.AppointmentLogAdapter
 import com.codetech.psychohelp.appointment.AppointmentClickListener
 import com.codetech.psychohelp.appointment.AppointmentDto
 import com.codetech.psychohelp.appointment.AppointmentsResponse
@@ -33,7 +33,7 @@ class PsychologistLogbook : AppCompatActivity(), AppointmentClickListener {
     private lateinit var appointmentResponse : AppointmentsResponse
     private val appointmentList = mutableListOf<AppointmentsResponse>()
     private lateinit var  binding: ActivityPsychologistLogbookBinding
-    private lateinit var adapter : AppointmentAdapter
+    private lateinit var adapter : AppointmentLogAdapter
     private var appointmentSelected = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,7 +48,7 @@ class PsychologistLogbook : AppCompatActivity(), AppointmentClickListener {
     }
 
     private fun initRecyclerView() {
-        adapter = AppointmentAdapter(appointmentList, this)
+        adapter = AppointmentLogAdapter(appointmentList, this)
         binding.rvListAppointments.layoutManager = LinearLayoutManager(this)
         binding.rvListAppointments.adapter = adapter
     }
