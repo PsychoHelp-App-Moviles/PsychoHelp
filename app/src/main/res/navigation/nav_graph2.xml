@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/homePsychoFragment">
+
+    <fragment
+        android:id="@+id/homePsychoFragment"
+        android:name="com.codetech.psychohelp.fragments.HomePsychoFragment"
+        android:label="fragment_home_psycho"
+        tools:layout="@layout/fragment_home_psycho" />
+    <fragment
+        android:id="@+id/patientsFragment"
+        android:name="com.codetech.psychohelp.fragments.PatientsFragment"
+        android:label="fragment_patients"
+        tools:layout="@layout/fragment_patients" />
+    <fragment
+        android:id="@+id/accountPsychoFragment"
+        android:name="com.codetech.psychohelp.fragments.AccountPsychoFragment"
+        android:label="fragment_account_psycho"
+        tools:layout="@layout/fragment_account_psycho" />
+    <fragment
+        android:id="@+id/datesPsychoFragment"
+        android:name="com.codetech.psychohelp.fragments.DatesPsychoFragment"
+        android:label="fragment_dates_psycho"
+        tools:layout="@layout/fragment_dates_psycho" />
+</navigation>

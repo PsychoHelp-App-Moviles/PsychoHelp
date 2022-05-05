@@ -23,4 +23,15 @@ interface APIService {
 
     @PUT("appointment/{appointmentId}")
     suspend fun updateAppointment(@Path("appointmentId") appointmentId: String, @Body appointmentDto: AppointmentDto): Response<AppointmentsResponse>
+
+    @GET("appointment/patient/{id}")
+    suspend fun getAppointmentByPatientId(@Path("id") id:String):Response<List<AppointmentsResponse>>
+
+    @GET("publications/psychologist/{id}")
+    suspend fun getPublicationByPsychologist(@Path("id") id:String):Response<List<PublicationsResponse>>
+
+    @POST("publications/psychologists/{id}")
+    suspend fun createPublication(@Path("id") id:String, @Body publicationDto: PublicationDto):Response<PublicationsResponse>
+
+
 }

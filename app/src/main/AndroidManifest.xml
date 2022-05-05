@@ -17,6 +17,25 @@
             android:exported="false" />
         <activity
             android:name=".psychologist.PsychologistLogbook"
+
+        <activity
+            android:name=".HistoryAppointmentsPsychologist"
+            android:exported="false" />
+
+        <activity android:name=".Publication.ListPublication"
+            android:exported="false"/>
+
+        <activity
+            android:name=".psychologist.PsychoProfile"
+            android:exported="false" />
+        <activity
+            android:name=".PsychologistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".patient.PatientProfile"
+            android:exported="false" />
+        <activity
+            android:name=".PatientActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

@@ -17,4 +17,9 @@
     <string name="update_button">Editar</string>
     <string name="open_dialog">Editar</string>
     <string name="patients_list">Tus Pacientes</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -17,6 +17,41 @@
         <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.355" />
         <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1565" />
         <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/xml/network_security_config.xml" value="0.259375" />
+        <entry key="..\:/Users/TARAZONA/Desktop/APLICACIONES MOVILES/PsychoHelp App Mobile/PsychoHelp/app/src/main/res/layout/activity_history_appointments_psychologist.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/TARAZONA/Desktop/APLICACIONES MOVILES/PsychoHelp App Mobile/PsychoHelp/app/src/main/res/layout/activity_list_publication.xml" value="0.33156498673740054" />
+        <entry key="..\:/Users/TARAZONA/Desktop/APLICACIONES MOVILES/PsychoHelp App Mobile/PsychoHelp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/TARAZONA/Desktop/APLICACIONES MOVILES/PsychoHelp App Mobile/PsychoHelp/app/src/main/res/layout/cardview.xml" value="0.1" />
+        <entry key="..\:/Users/TARAZONA/Desktop/APLICACIONES MOVILES/PsychoHelp App Mobile/PsychoHelp/app/src/main/res/layout/publication_view.xml" value="0.25" />
+        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1125" />
+        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/layout/activity_cardview.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/layout/activity_history_appointments_psychologist.xml" value="0.1" />
+        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/layout/cardview.xml" value="0.1" />
+        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
+        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1125" />
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/patient_profile.xml" value="0.33" />
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/patient_profile_dialog.xml" value="0.3625" />
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/psycho_profile.xml" value="0.3625" />
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/psycho_profile_dialog.xml" value="0.3625" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/drawable/ic_dates.xml" value="0.2435" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/drawable/ic_home.xml" value="0.2435" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/drawable/ic_patients.xml" value="0.2295" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/activity_patient.xml" value="0.128" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/activity_psychologist.xml" value="0.1" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_account_psycho.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_dates.xml" value="0.2359375" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_dates_psycho.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_home2.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_home_psycho.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_patients.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_psychologists.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/menu/menu_patient.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/menu/menu_psychologist.xml" value="0.25" />
       </map>
     </option>
   </component>
