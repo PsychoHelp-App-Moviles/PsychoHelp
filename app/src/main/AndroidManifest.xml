@@ -17,7 +17,7 @@
             android:exported="false" />
         <activity
             android:name=".psychologist.PsychologistLogbook"
-
+            android:exported="false" />
         <activity
             android:name=".HistoryAppointmentsPsychologist"
             android:exported="false" />

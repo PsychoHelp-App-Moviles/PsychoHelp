@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intentPsycho)
         }
     }
-    fun sendMessage(view: View){
+    /*fun sendMessage(view: View){
         val message = "1"
         val intent = Intent(this, HistoryAppointmentsPsychologist::class.java).apply {
             putExtra(EXTRA_MESSAGE, message)
@@ -49,5 +49,5 @@ class MainActivity : AppCompatActivity() {
             putExtra(EXTRA_MESSAGE, message)
         }
         startActivity(intent)
-    }
+    }*/
 }

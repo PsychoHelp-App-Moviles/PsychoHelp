@@ -1,8 +1,9 @@
 package com.codetech.psychohelp
 
+import com.codetech.psychohelp.Publication.PublicationDto
+import com.codetech.psychohelp.Publication.PublicationsResponse
 import com.codetech.psychohelp.appointment.AppointmentDto
 import com.codetech.psychohelp.appointment.AppointmentsResponse
-import com.codetech.psychohelp.patient.PatientDto
 import com.codetech.psychohelp.patient.PatientsResponse
 import retrofit2.Response
 import retrofit2.http.*
