@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/patient_profile.xml" value="0.33" />
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/patient_profile_dialog.xml" value="0.3625" />
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/psycho_profile.xml" value="0.3625" />
+        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/psycho_profile_dialog.xml" value="0.3625" />
         <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/drawable/ic_dates.xml" value="0.2435" />
         <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/drawable/ic_home.xml" value="0.2435" />
         <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/drawable/ic_patients.xml" value="0.2295" />

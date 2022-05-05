@@ -3,6 +3,8 @@ package com.codetech.psychohelp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import androidx.appcompat.app.AlertDialog
 import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
@@ -21,7 +23,5 @@ class MainActivity : AppCompatActivity() {
             val intentPsycho = Intent(this, PsychologistActivity::class.java)
             startActivity(intentPsycho)
         }
-
-
     }
 }

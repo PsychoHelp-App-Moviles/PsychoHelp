@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PsychoHelp">
         <activity
+            android:name=".psychologist.PsychoProfile"
+            android:exported="false" />
+        <activity
+            android:name=".patient.PatientProfile"
             android:name=".PsychologistActivity"
             android:exported="false" />
         <activity
