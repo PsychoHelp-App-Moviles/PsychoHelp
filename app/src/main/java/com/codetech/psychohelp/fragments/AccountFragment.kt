@@ -14,7 +14,7 @@ class AccountFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_account, container, false)
+        return inflater.inflate(R.layout.patient_profile, container, false)
     }
 
     companion object {
