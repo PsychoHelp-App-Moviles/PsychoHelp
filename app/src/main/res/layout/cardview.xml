@@ -1,5 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
@@ -10,53 +11,69 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="5dp"
         app:cardElevation="7dp"
         android:clickable="true"
         android:focusable="true">
-        <LinearLayout
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:layout_height="match_parent">
+
             <TextView
                 android:id="@+id/tvDateProgramated"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
+                android:layout_marginStart="16dp"
                 android:gravity="center"
+                android:lines="2"
                 android:text="Cita programada"
                 android:textColor="@color/black"
-                android:textSize="15sp"
-                android:lines="2"
-                android:textStyle="bold"/>
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
 
             <TextView
                 android:id="@+id/tvDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
                 android:gravity="center"
-                android:text="10/12/2002"
-                android:layout_margin="20dp"
-                android:textColor="@color/black"
-                android:textSize="15sp"
                 android:lines="2"
-                android:textStyle="bold"/>
+                android:text="10/12/2002"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/tvDateStatus"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/tvDateProgramated"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
 
             <TextView
                 android:id="@+id/tvDateStatus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="20dp"
+                android:layout_marginEnd="24dp"
                 android:gravity="center"
+                android:lines="2"
                 android:text="Pendiente"
                 android:textColor="@color/black"
-                android:textSize="15sp"
-                android:lines="2"
-                android:textStyle="bold"/>
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
 
 
-
-        </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     </androidx.cardview.widget.CardView>

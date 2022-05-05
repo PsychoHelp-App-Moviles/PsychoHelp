@@ -14,7 +14,7 @@
         android:layout_margin="20dp"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:text="Historial de citas del psicólogo"
+        android:text="Historial de citas del paciente"
         android:textSize="20dp"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="23dp" />

@@ -55,7 +55,7 @@ class PsychologistLogbook : AppCompatActivity(), AppointmentClickListener {
 
     private fun getRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("http://10.0.2.2:8080/api/v1/")
+            .baseUrl("https://psychohelp.herokuapp.com/api/v1/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }

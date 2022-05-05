@@ -3,38 +3,37 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1565" />
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1565" />
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/layout/activity_list_of_patients.xml" value="0.259375" />
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/layout/activity_list_patients2.xml" value="0.36666666666666664" />
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/layout/activity_logbook.xml" value="0.36666666666666664" />
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/layout/activity_psychologist_logbook.xml" value="0.33" />
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/layout/edit_logbook_dialog.xml" value="0.33" />
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/layout/item_appointment.xml" value="0.36666666666666664" />
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/layout/item_patient.xml" value="0.5" />
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/layout/list_patients.xml" value="0.259375" />
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.355" />
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1565" />
-        <entry key="..\:/Trabajos-Uni/Parcial-Moviles/PsychoHelp/app/src/main/res/xml/network_security_config.xml" value="0.259375" />
-        <entry key="..\:/Users/TARAZONA/Desktop/APLICACIONES MOVILES/PsychoHelp App Mobile/PsychoHelp/app/src/main/res/layout/activity_history_appointments_psychologist.xml" value="0.17831813576494426" />
-        <entry key="..\:/Users/TARAZONA/Desktop/APLICACIONES MOVILES/PsychoHelp App Mobile/PsychoHelp/app/src/main/res/layout/activity_list_publication.xml" value="0.33156498673740054" />
-        <entry key="..\:/Users/TARAZONA/Desktop/APLICACIONES MOVILES/PsychoHelp App Mobile/PsychoHelp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/TARAZONA/Desktop/APLICACIONES MOVILES/PsychoHelp App Mobile/PsychoHelp/app/src/main/res/layout/cardview.xml" value="0.1" />
-        <entry key="..\:/Users/TARAZONA/Desktop/APLICACIONES MOVILES/PsychoHelp App Mobile/PsychoHelp/app/src/main/res/layout/publication_view.xml" value="0.25" />
-        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1125" />
-        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
-        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/layout/activity_cardview.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/layout/activity_history_appointments_psychologist.xml" value="0.1" />
-        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/layout/cardview.xml" value="0.1" />
-        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
-        <entry key="..\:/Users/UsuarioTK/Documents/UPC/Apps Moviles/Kotlin/PsychoHelp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1125" />
-        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/activity_main.xml" value="0.3625" />
-        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/patient_profile.xml" value="0.33" />
-        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/patient_profile_dialog.xml" value="0.3625" />
-        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/psycho_profile.xml" value="0.3625" />
-        <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/psycho_profile_dialog.xml" value="0.3625" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/drawable-v21/app_widget_background.xml" value="0.1085" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/drawable-v21/app_widget_inner_view_background.xml" value="0.1085" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/drawable/ic_account.xml" value="0.316" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/drawable/ic_dates.xml" value="0.316" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/drawable/ic_home.xml" value="0.316" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/drawable/ic_patients.xml" value="0.316" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/drawable/ic_psychologists.xml" value="0.316" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/activity_history_appointments_patient.xml" value="0.35260416666666666" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/activity_history_appointments_psychologist.xml" value="0.36666666666666664" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/activity_list_publication.xml" value="0.30462962962962964" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/activity_patient.xml" value="0.36666666666666664" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/activity_patients_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/activity_psycho_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/activity_psychologist.xml" value="0.36666666666666664" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/activity_psychologist_logbook.xml" value="0.22592592592592592" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/cardview.xml" value="0.30462962962962964" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/content_nav_graph_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/fragment_account.xml" value="0.346875" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/fragment_home.xml" value="0.346875" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/fragment_home_psycho.xml" value="0.346875" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/fragment_patients.xml" value="0.36666666666666664" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/fragment_psychologists.xml" value="0.36102564102564105" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/item_appointment.xml" value="0.30462962962962964" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/item_patient.xml" value="0.36666666666666664" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/login_patient.xml" value="0.36666666666666664" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/login_psycho.xml" value="0.5" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/patient_profile.xml" value="0.33" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/patient_profile_dialog.xml" value="0.3296296296296296" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/psycho_profile.xml" value="0.3296296296296296" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/psycho_profile_dialog.xml" value="0.33" />
+        <entry key="..\:/Moviles/PsychoHelp/app/src/main/res/layout/publication_view.xml" value="0.1" />
         <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/drawable/ic_dates.xml" value="0.2435" />
         <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/drawable/ic_home.xml" value="0.2435" />
         <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/drawable/ic_patients.xml" value="0.2295" />

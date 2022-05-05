@@ -43,7 +43,7 @@
                 android:textColor="@color/black"
                 android:textSize="16sp" />
             <TextView
-                android:id="@+id/textview_name"
+                android:id="@+id/etPsychoName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="fullNameText"
@@ -58,7 +58,7 @@
                 android:textColor="@color/black"
                 android:textSize="16sp" />
             <TextView
-                android:id="@+id/textview_email"
+                android:id="@+id/etPsychoEmail"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="emailText"
@@ -73,7 +73,7 @@
                 android:textColor="@color/black"
                 android:textSize="16sp" />
             <TextView
-                android:id="@+id/textview_birthdate"
+                android:id="@+id/etPsychoBirthday"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="birthDateText"
@@ -88,7 +88,7 @@
                 android:textColor="@color/black"
                 android:textSize="16sp" />
             <TextView
-                android:id="@+id/textview_phone"
+                android:id="@+id/etPsychoPhone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="phoneNumberText"
@@ -103,7 +103,7 @@
                 android:textColor="@color/black"
                 android:textSize="16sp" />
             <TextView
-                android:id="@+id/textview_formation"
+                android:id="@+id/etPsychoFormation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="formationText"
@@ -118,7 +118,7 @@
                 android:textColor="@color/black"
                 android:textSize="16sp" />
             <TextView
-                android:id="@+id/textview_about"
+                android:id="@+id/etPsychoAboutMe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="aboutMeText"

@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/homePsychoFragment"
-        android:name="com.codetech.psychohelp.fragments.HomePsychoFragment"
+        android:name="com.codetech.psychohelp.Publication.ListPublication"
         android:label="fragment_home_psycho"
-        tools:layout="@layout/fragment_home_psycho" />
+        tools:layout="@layout/activity_list_publication" />
     <fragment
         android:id="@+id/patientsFragment"
-        android:name="com.codetech.psychohelp.fragments.PatientsFragment"
+        android:name="com.codetech.psychohelp.ListOfPatients"
         android:label="fragment_patients"
-        tools:layout="@layout/fragment_patients" />
+        tools:layout="@layout/activity_list_of_patients" />
     <fragment
         android:id="@+id/accountPsychoFragment"
-        android:name="com.codetech.psychohelp.fragments.AccountPsychoFragment"
+        android:name="com.codetech.psychohelp.psychologist.PsychoProfile"
         android:label="fragment_account_psycho"
-        tools:layout="@layout/fragment_account_psycho" />
+        tools:layout="@layout/psycho_profile" />
     <fragment
         android:id="@+id/datesPsychoFragment"
-        android:name="com.codetech.psychohelp.fragments.DatesPsychoFragment"
+        android:name="com.codetech.psychohelp.HistoryAppointmentsPsychologist"
         android:label="fragment_dates_psycho"
-        tools:layout="@layout/fragment_dates_psycho" />
+        tools:layout="@layout/activity_history_appointments_psychologist" />
 </navigation>

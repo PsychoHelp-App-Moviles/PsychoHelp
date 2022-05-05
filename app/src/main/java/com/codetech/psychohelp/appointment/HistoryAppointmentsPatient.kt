@@ -1,4 +1,4 @@
-package com.codetech.psychohelp
+package com.codetech.psychohelp.appointment
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,20 +9,16 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.codetech.psychohelp.appointment.AppointmentAdapter
-import com.codetech.psychohelp.appointment.AppointmentViewHolder
-import com.codetech.psychohelp.appointment.AppointmentsResponse
-import com.codetech.psychohelp.databinding.ActivityHistoryAppointmentsPsychologistBinding
+import com.codetech.psychohelp.APIService
+import com.codetech.psychohelp.R
 import com.codetech.psychohelp.fragments.DatesFragment
-import com.codetech.psychohelp.patient.PatientViewHolder
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class HistoryAppointmentsPsychologist : Fragment() {
-
+class HistoryAppointmentsPatient : Fragment() {
     private var appointmentAdapter: RecyclerView.Adapter<AppointmentViewHolder> ?= null
     private val appointmentsList = mutableListOf<AppointmentsResponse>()
 
@@ -31,12 +27,12 @@ class HistoryAppointmentsPsychologist : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.activity_history_appointments_psychologist, container, false)
+        return inflater.inflate(R.layout.activity_history_appointments_patient, container, false)
     }
 
     override fun onViewCreated(itemView: View, savedInstanceState: Bundle?) {
         super.onViewCreated(itemView, savedInstanceState)
-        getAppointmentByPsychologistId("1")
+        getAppointmentByPatientId("1")
         view?.findViewById<RecyclerView>(R.id.rvListAppointmentsPatient).apply {
             appointmentAdapter = AppointmentAdapter(appointmentsList)
             this?.layoutManager = LinearLayoutManager(activity)
@@ -47,13 +43,13 @@ class HistoryAppointmentsPsychologist : Fragment() {
     private fun getRetrofit(): Retrofit {
         return Retrofit.Builder()
             .baseUrl("https://psychohelp.herokuapp.com/api/v1/")
-                .addConverterFactory(GsonConverterFactory.create())
-                .build()
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
     }
 
-    private fun getAppointmentByPsychologistId(id:String){
+    private fun getAppointmentByPatientId(id:String){
         CoroutineScope(Dispatchers.IO).launch {
-            val call = getRetrofit().create(APIService::class.java).getAppointmentByPsychologistId(id)
+            val call = getRetrofit().create(APIService::class.java).getAppointmentByPatientId(id)
             val appointments = call.body()
             activity?.runOnUiThread{
                 if(call.isSuccessful) {

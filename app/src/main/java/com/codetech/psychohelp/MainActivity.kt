@@ -27,27 +27,4 @@ class MainActivity : AppCompatActivity() {
             startActivity(intentPsycho)
         }
     }
-    /*fun sendMessage(view: View){
-        val message = "1"
-        val intent = Intent(this, HistoryAppointmentsPsychologist::class.java).apply {
-            putExtra(EXTRA_MESSAGE, message)
-        }
-        startActivity(intent)
-    }
-
-    fun sendPublication(view: View){
-        val message = "1"
-        val intent = Intent(this, ListPublication::class.java).apply {
-            putExtra(EXTRA_MESSAGE, message)
-        }
-        startActivity(intent)
-    }
-
-    fun sendMessage(view: View){
-        val message = "1"
-        val intent = Intent(this, ListOfPatients::class.java).apply {
-            putExtra(EXTRA_MESSAGE, message)
-        }
-        startActivity(intent)
-    }*/
 }

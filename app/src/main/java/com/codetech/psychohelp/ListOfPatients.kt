@@ -4,12 +4,17 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import android.widget.Toast
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.codetech.psychohelp.APIService
-import com.codetech.psychohelp.databinding.ActivityListOfPatientsBinding
+import androidx.recyclerview.widget.RecyclerView
+import com.codetech.psychohelp.fragments.PsychologistsFragment
 import com.codetech.psychohelp.patient.PatientAdapter
 import com.codetech.psychohelp.patient.PatientClickListener
+import com.codetech.psychohelp.patient.PatientViewHolder
 import com.codetech.psychohelp.patient.PatientsResponse
 import com.codetech.psychohelp.psychologist.PsychologistLogbook
 import kotlinx.coroutines.CoroutineScope
@@ -20,29 +25,30 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 const val ID = "com.codetech.psychohelp.MESSAGE"
 
-class ListOfPatients : AppCompatActivity(), PatientClickListener {
-    private lateinit var adapter : PatientAdapter
-    private lateinit var binding: ActivityListOfPatientsBinding
+class ListOfPatients : Fragment(), PatientClickListener {
+
+
+    private var adapter: RecyclerView.Adapter<PatientViewHolder> ?= null
     private val patientsList = mutableListOf<PatientsResponse>()
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        binding = ActivityListOfPatientsBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
-        getPatients("1")
-        initRecyclerView()
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
+                          savedInstanceState: Bundle?): View? {
+        return inflater.inflate(R.layout.activity_list_of_patients, container, false)
     }
 
-    private fun initRecyclerView() {
-        adapter = PatientAdapter(patientsList, this)
-        binding.rvListPatients.layoutManager = LinearLayoutManager(this)
-        binding.rvListPatients.adapter = adapter
+    override fun onViewCreated(itemView: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(itemView, savedInstanceState)
+        getPatients("1")
+        view?.findViewById<RecyclerView>(R.id.rvListPatients).apply{
+            adapter = PatientAdapter(patientsList, this@ListOfPatients)
+            this?.layoutManager = LinearLayoutManager(activity)
+            this?.adapter = adapter
+        }
     }
 
     private fun getRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("http://10.0.2.2:8080/api/v1/")
+            .baseUrl("https://psychohelp.herokuapp.com/api/v1/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
@@ -51,11 +57,12 @@ class ListOfPatients : AppCompatActivity(), PatientClickListener {
         CoroutineScope(Dispatchers.IO).launch {
             val call = getRetrofit().create(APIService::class.java).getPatientsByPsychologistId(id)
             val patients = call.body()
-            runOnUiThread{
+
+            activity?.runOnUiThread{
                 if(call.isSuccessful) {
                     patientsList.clear()
                     patientsList.addAll(patients!!)
-                    adapter.notifyDataSetChanged()
+                    adapter?.notifyDataSetChanged()
                 }else {
                     showError()
                 }
@@ -64,14 +71,20 @@ class ListOfPatients : AppCompatActivity(), PatientClickListener {
     }
 
     private fun showError() {
-        Toast.makeText(this, "An error has been occurred while processing your request", Toast.LENGTH_SHORT).show()
+        Toast.makeText( context,"An error has been occurred while processing your request", Toast.LENGTH_SHORT).show()
     }
 
     override fun onClick(patient: PatientsResponse) {
-        val intent = Intent(this, PsychologistLogbook::class.java).apply {
+        val intent = Intent(activity, PsychologistLogbook::class.java).apply {
             putExtra(ID, patient.id)
         }
         Log.d("patient", patient.id)
-        startActivity(intent)
+        activity?.startActivity(intent)
+    }
+
+    companion object {
+
+        @JvmStatic
+        fun newInstance() = PsychologistsFragment()
     }
 }
