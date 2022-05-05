@@ -1,4 +1,5 @@
 package com.codetech.psychohelp.appointment
+
 import com.google.gson.annotations.SerializedName
 data class AppointmentsResponse(@SerializedName("id") val id: String,
                                 @SerializedName("meetUrl") val meetUrl: String,

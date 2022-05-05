@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PsychoHelp"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".ListOfPatients"
+            android:exported="false" />
+        <activity
+            android:name=".psychologist.PsychologistLogbook"
 
         <activity
             android:name=".HistoryAppointmentsPsychologist"

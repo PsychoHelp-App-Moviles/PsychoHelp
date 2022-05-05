@@ -1,5 +1,22 @@
 <resources>
     <string name="app_name">PsychoHelp</string>
+    <string name="sent">Sent</string>
+    <string name="name_patient_placeholder">Name</string>
+    <string name="email_placeholder">Email</string>
+    <string name="cover">Patient</string>
+    <string name="session_history">Historial de Sesiones</string>
+    <string name="identification_data">Datos de identificación</string>
+    <string name="session_placeholder">Sesión</string>
+    <string name="motive_placeholder">Motivo de la cita:</string>
+    <string name="history_placeholder">Historial Personal:</string>
+    <string name="motive"> </string>
+    <string name="history"> </string>
+    <string name="motive_text">Motive</string>
+    <string name="history_text">History</string>
+    <string name="placeholder_patient">Text:</string>
+    <string name="update_button">Editar</string>
+    <string name="open_dialog">Editar</string>
+    <string name="patients_list">Tus Pacientes</string>
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
     <string name="app_widget_description">This is an app widget description</string>

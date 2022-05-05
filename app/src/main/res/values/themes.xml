@@ -2,7 +2,10 @@
     <!-- Base application theme. -->
     <style name="Theme.PsychoHelp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="fontFamily">@font/poppins</item> <!-- target android sdk versions < 26 and > 14 if theme other than AppCompat -->
         <item name="colorPrimary">@color/white</item>
+
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->

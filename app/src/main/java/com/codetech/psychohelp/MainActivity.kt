@@ -42,4 +42,12 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
+
+    fun sendMessage(view: View){
+        val message = "1"
+        val intent = Intent(this, ListOfPatients::class.java).apply {
+            putExtra(EXTRA_MESSAGE, message)
+        }
+        startActivity(intent)
+    }
 }
