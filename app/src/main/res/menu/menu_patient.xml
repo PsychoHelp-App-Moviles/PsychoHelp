@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/psychologistsFragment"
+        android:icon="@drawable/ic_psychologists"
+        android:title="Psychologists"
+        />
+    <item
+        android:id="@+id/datesFragment"
+        android:icon="@drawable/ic_dates"
+        android:title="Dates"
+        />
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/ic_account"
+        android:title="Account"
+        />
+</menu>
