@@ -8,6 +8,23 @@
         <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/patient_profile_dialog.xml" value="0.3625" />
         <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/psycho_profile.xml" value="0.3625" />
         <entry key="..\:/Trabajos de la U/GitHubRepositoryTrabajos/TRABAJO_FINAL_APPS_MOVILES/PsychoHelp/app/src/main/res/layout/psycho_profile_dialog.xml" value="0.3625" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/drawable/ic_dates.xml" value="0.2435" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/drawable/ic_home.xml" value="0.2435" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/drawable/ic_patients.xml" value="0.2295" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/activity_main.xml" value="0.21784420289855072" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/activity_patient.xml" value="0.128" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/activity_psychologist.xml" value="0.1" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_account_psycho.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_dates.xml" value="0.2359375" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_dates_psycho.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_home2.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_home_psycho.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_patients.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/layout/fragment_psychologists.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/menu/menu_patient.xml" value="0.25" />
+        <entry key="..\:/My Android Studio Projects/PsychoHelp/app/src/main/res/menu/menu_psychologist.xml" value="0.25" />
       </map>
     </option>
   </component>
